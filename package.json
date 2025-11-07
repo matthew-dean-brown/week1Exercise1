@@ -1,0 +1,12 @@
+{
+  "name": "variables-autograde-starter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest --ci --runInBand"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
