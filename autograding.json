@@ -1,0 +1,39 @@
+{
+  "tests": [
+    {
+      "name": "firstName",
+      "setup": "echo setup ok",
+      "run": "npm test -- --ci --runInBand -t \"firstName variable exists and is non-empty\"",
+      "timeout": 120,
+      "points": 20
+    },
+    {
+      "name": "lastName",
+      "setup": "echo setup ok",
+      "run": "npm test -- --ci --runInBand -t \"lastName variable exists and is non-empty\"",
+      "timeout": 120,
+      "points": 20
+    },
+    {
+      "name": "age",
+      "setup": "echo setup ok",
+      "run": "npm test -- --ci --runInBand -t \"age is a number (declared with let in student code)\"",
+      "timeout": 120,
+      "points": 20
+    },
+    {
+      "name": "fullName",
+      "setup": "echo setup ok",
+      "run": "npm test -- --ci --runInBand -t \"fullName combines firstName and lastName\"",
+      "timeout": 120,
+      "points": 20
+    },
+    {
+      "name": "greeting",
+      "setup": "echo setup ok",
+      "run": "npm test -- --ci --runInBand -t \"prints a greeting to the console\"",
+      "timeout": 120,
+      "points": 20
+    }
+  ]
+}
